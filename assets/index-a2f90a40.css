@@ -1,0 +1,1 @@
+#root{max-width:100vh;margin:0 auto;padding:2rem;text-align:center}body{margin:0;background-color:#696969;display:flex;place-items:center;min-width:320px;min-height:100vh;color:#f0f8ff}.title{color:red}.title2{color:#010b7a;font-size:20px}.animacionLogo{max-width:20vh;opacity:0;animation:fadeIn 4s ease-in-out alternate infinite}@keyframes fadeIn{0%{opacity:0}to{opacity:1}}
