@@ -1,0 +1,40 @@
+#root {
+    max-width: 100vh;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+body {
+    margin: 0;
+    background-color: dimgrey;
+    display: flex;
+    place-items: center;
+    min-width: 320px;
+    min-height: 100vh;
+    color: aliceblue;
+}
+
+.title {
+    color: red;
+}
+
+.title2 {
+    color: rgb(1, 11, 122);
+    font-size: 20px;
+}
+
+.animacionLogo {
+    max-width: 20vh;
+    opacity: 0;
+    animation: fadeIn 4s ease-in-out alternate infinite;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
