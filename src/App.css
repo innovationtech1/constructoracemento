@@ -1,40 +1,52 @@
 #root {
     max-width: 100vh;
     margin: 0 auto;
-    padding: 2rem;
     text-align: center;
 }
 
 body {
     margin: 0;
-    background-color: dimgrey;
     display: flex;
     place-items: center;
     min-width: 320px;
     min-height: 100vh;
-    color: aliceblue;
+    color: rgb(0, 0, 0);
+    background: rgb(208, 255, 0);
+    background: linear-gradient(36deg, rgba(208, 255, 0, 1) 0%, rgba(154, 179, 8, 1) 54%, rgba(255, 149, 0, 1) 100%);
 }
 
-.title {
-    color: red;
+.colorBody {
+    background-color: rgba(5, 26, 146, 0.284);
+    min-width: 370px;
+    min-height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
 }
 
-.title2 {
-    color: rgb(1, 11, 122);
+.btnInicio {
+    padding: 20px;
+    background-color: rgb(7, 76, 173);
+    border: 1px solid black;
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    color: white;
     font-size: 20px;
+    text-decoration: none;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(169deg, rgba(2, 0, 36, 1) 0%, rgba(8, 8, 179, 1) 37%, rgba(0, 212, 255, 1) 100%);
 }
 
-.animacionLogo {
-    max-width: 20vh;
-    opacity: 0;
-    animation: fadeIn 4s ease-in-out alternate infinite;
+.btnInicio:hover {
+    background-color: rgb(6, 6, 106);
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
 }
 
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
+.btnLink {
+    text-decoration: none;
+    border: none;
+    color: whitesmoke;
+    border-style: none;
+    font-size: medium;
 }

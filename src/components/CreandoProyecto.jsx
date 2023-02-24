@@ -1,12 +1,18 @@
-import logo from "../assets/logo.png"
-import "../App.css";
-function CreandoProyecto() {
-  return (
-    <div>
-      <div className="tilte">Iniciando Proyecto</div>
 
-      <h1 className="title2">Configurando sitio web</h1>
-      <img className="animacionLogo" src={logo} alt="logo" />
+import logo1 from "../assets/logo.png";
+import logo from "../assets/logoconcreto1.png";
+import "../styles/CreandoProyecto.css";
+
+function CreandoProyecto() {
+
+
+  return (
+    <div className="bodyColor">
+      <img className="animacionLogo" src={logo1} alt="logo" />
+      <p className="title2">INNOVATIONTECH  2023</p>
+      <div className="tilte">Iniciando Proyecto</div>
+      <h1 className="title2">Construyendo sitio web</h1>
+      <img className="reconstruccion-pieza" src={logo} alt="logo" />
     </div>
   );
 }
