@@ -22,7 +22,7 @@ function App() {
   }, []);
 
   return (
-    <div className="textContainer" >
+    <div >
       <BrowserRouter>
         <Routes>
           <Route
@@ -42,7 +42,7 @@ function App() {
             path="/constructoracemento/informacion"
             element={<Informacion />}
           />
-          <Route path="/constructoracemento/about" element={<About />} />
+          <Route path="/constructoracemento/about" element={<About/>} />
         </Routes>
       </BrowserRouter>
       {mostrarCreandoProyecto && <CreandoProyecto />}
