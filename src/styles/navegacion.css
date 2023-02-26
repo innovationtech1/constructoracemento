@@ -1,4 +1,5 @@
         .imgLogo {
+            padding-top: 4px;
             width: 20%;
             height: 20%;
         }
@@ -8,7 +9,7 @@
             text-align: center;
             font-weight: 800;
             color: rgb(254, 254, 254);
-            background: #ff3838;
+            background: #030303;
             background-size: cover;
             background-repeat: no-repeat;
         }
@@ -17,23 +18,12 @@
             width: 100%;
             border-bottom: 2px solid whitesmoke;
             text-align: center;
-            background-color: rgba(250, 235, 215, 0.494);
+            background-image: url('../assets/cementoCapa.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
             display: flex;
             justify-content: space-between;
             flex-direction: row;
-        }
-        
-        .titleNav {
-            color: #f9f9f9;
-            text-shadow: 3px 3px 3px rgb(0, 0, 0), 3px 3px 3px rgb(0, 0, 0), 3px 3px 3px rgb(224, 178, 9);
-            background: linear-gradient( 180deg, rgb(212, 56, 4) 0%, rgb(197, 22, 3) 22%, rgba(255, 123, 0, 0.774) 81%, rgb(196, 128, 1) 99%, rgba(239, 239, 241, 0.8268287866137178) 100%);
-            width: 100%;
-            padding: 2px;
-            height: 25px;
-            border-radius: 6px;
-            border: 1px solid whitesmoke;
-            list-style: none;
-            text-decoration: none;
         }
         
         .active {
@@ -43,7 +33,7 @@
         .titleNav:hover {
             text-decoration: none;
             color: #c30404;
-            text-shadow: 3px 3px 3px rgb(0, 0, 0), 3px 3px 3px rgb(0, 0, 0), 3px 3px 3px rgb(224, 178, 9);
+            text-shadow: 3px 3px 3px rgb(0, 0, 0), 3px 3px 3px rgb(0, 0, 0), 3px 3px 3px rgb(249, 249, 249);
         }
         
         .textContainer {
@@ -71,12 +61,24 @@
             display: flex;
         }
         
+        .titleNav {
+            color: #ffffff;
+            background: linear-gradient( 180deg, rgb(255, 255, 255) 0%, rgb(0, 0, 0) 22%, rgba(0, 0, 0, 0.774) 81%, rgb(83, 78, 73) 99%, rgba(0, 0, 0, 0.827) 100%);
+            width: 100%;
+            padding: 4px;
+            height: 25px;
+            border-radius: 6px;
+            border: 1px solid rgb(0, 0, 0);
+            list-style: none;
+            text-decoration: none;
+        }
+        
         .menuContainer,
         NavLink {
             display: flex;
             justify-content: space-between;
             flex-direction: row;
-            text-shadow: 3px 3px 3px rgb(215, 222, 2), 3px 3px 3px rgb(224, 178, 9);
+            text-shadow: 3px 3px 3px rgb(0, 0, 0), 3px 3px 3px rgb(0, 0, 0);
             width: 80%;
             margin-left: 10%;
             height: 30px;
@@ -93,7 +95,7 @@
             animation-fill-mode: forwards;
             transition: 1ms;
             background-color: none;
-            font-size: 30px;
+            font-size: 25px;
         }
         
         @keyframes text {
@@ -116,15 +118,17 @@
         
         .techNav {
             color: rgb(194, 0, 0);
-            font-size: 19px;
+            font-size: 25px;
+            text-shadow: 3px 3px 3px black, 3px 3px 3px black
         }
         
         .likesBtn {
-            background: linear-gradient( 180deg, rgb(212, 56, 4) 0%, rgb(197, 22, 3) 22%, rgba(255, 123, 0, 0.774) 81%, rgb(196, 128, 1) 99%, rgba(239, 239, 241, 0.8268287866137178) 100%);
+            padding-top: 8px;
+            background: linear-gradient( 180deg, rgb(255, 255, 255) 0%, rgb(0, 0, 0) 22%, rgba(0, 0, 0, 0.774) 81%, rgb(83, 78, 73) 99%, rgba(0, 0, 0, 0.827) 100%);
             border-radius: 8px;
             text-decoration: none;
             color: #fff;
-            padding: 8px 16px;
+            padding: 8px;
             border: 1px solid whitesmoke;
             cursor: pointer;
             transition: all 0.3s ease-in-out;
