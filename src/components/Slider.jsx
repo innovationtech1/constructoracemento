@@ -9,23 +9,23 @@ import slider3 from "../assets/slider3.jpg";
 
 const Data = [
   {
-    title: "TECNOLOGIA WEB A TU ALCANCE",
+    title: "CONTAMOS CON TODO PARA LA CONSTRUCION",
     description: "CONOCE NUESTROS SERVICIOS Y PRODUCTOS",
     image: slider0,
   },
   {
-    title: "PROBLEMAS CON TU SITIO WEB",
-    description: "DISEÑAMOS TU PAGINA WEB DESDE CERO",
+    title: "CONTAMOS CON TODO PARA LA CONSTRUCION",
+    description: "CONOCE NUESTROS SERVICIOS Y PRODUCTOS",
     image: slider1,
   },
   {
-    title: "NECEISTAS UN LOGOTIPO ",
-    description: " EDICION DE FOTOGRAFIA Y VIDEO DIGITAL",
+    title: "CONTAMOS CON TODO PARA LA CONSTRUCION",
+    description: "CONOCE NUESTROS SERVICIOS Y PRODUCTOS",
     image: slider2,
   },
   {
-    title: "CAMPAÑAS DE MARKETING",
-    description: "UTILIZAMOS GOOGLE ADSENSE",
+    title: "CONTAMOS CON TODO PARA LA CONSTRUCION",
+    description: "CONOCE NUESTROS SERVICIOS Y PRODUCTOS",
     image: slider3,
   },
 ];
