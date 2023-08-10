@@ -5,7 +5,7 @@
         }
         
         .title {
-            color: rgb(232, 228, 10);
+            color: rgb(253, 253, 253);
             text-align: center;
             font-weight: 800;
             color: rgb(254, 254, 254);
@@ -117,7 +117,7 @@
         }
         
         .techNav {
-            color: rgb(194, 0, 0);
+            color: rgb(250, 6, 6);
             font-size: 25px;
             text-shadow: 3px 3px 3px black, 3px 3px 3px black
         }
@@ -168,8 +168,8 @@
                 flex-direction: row;
             }
             .titleNav {
-                color: #e1f009;
-                text-shadow: 3px 3px 3px rgb(0, 0, 0), 3px 3px 3px rgb(0, 0, 0), 3px 3px 3px rgb(224, 178, 9);
+                color: #f7f7f7;
+                text-shadow: 3px 3px 3px rgb(0, 0, 0), 3px 3px 3px rgb(0, 0, 0), 3px 3px 3px rgb(36, 36, 35);
                 width: 120%;
                 height: 35px;
                 border-radius: 6px;
@@ -182,9 +182,9 @@
             }
             .titleNav:hover {
                 text-decoration: none;
-                color: #e1f009;
-                text-shadow: 3px 3px 3px rgb(0, 0, 0), 3px 3px 3px rgb(0, 0, 0), 3px 3px 3px rgb(224, 178, 9);
-                background-color: rgba(251, 180, 0, 0.886);
+                color: #f02c09;
+                text-shadow: 3px 3px 3px rgb(0, 0, 0), 3px 3px 3px rgb(0, 0, 0), 3px 3px 3px rgb(224, 23, 9);
+                background-color: rgba(0, 0, 0, 0.886);
             }
             .likesBtn {
                 margin-right: 20px

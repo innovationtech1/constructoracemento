@@ -1,0 +1,12 @@
+.texto {
+    background-color: rgb(254, 11, 11);
+    color: white
+}
+
+.foto {
+    width: 100%;
+}
+
+.text-container {
+    height: 2400px;
+}

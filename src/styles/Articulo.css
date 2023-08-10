@@ -1,17 +1,18 @@
 .articuloContainer {
     width: 100%;
-    height: 100%;
+    height: 120%;
+    background-color: black
 }
 
 .articuloTitle {
     color: red;
-    text-shadow: 3px 3px 3px rgb(224, 244, 5);
+    text-shadow: 3px 3px 3px rgb(0, 0, 0);
     text-align: center;
 }
 
 .articuloDescription {
-    color: #000000;
-    text-shadow: 3px 3px 3px rgb(196, 233, 9);
+    color: #ffffff;
     font-weight: 800;
-    text-align: ;
+    text-align: center;
+    height: 1000px;
 }

@@ -1,13 +1,14 @@
 import Navegacion from "../components/navegacion"
 import Footer from "../components/footer"
 import "../App.css";
-import CreandoProyecto from "../components/CreandoProyecto";
+
+import Aboutus from "../components/Aboutus";
 
 function About() {
   return (
     <div className="title">About
       <Navegacion />
-      <CreandoProyecto/>
+   <Aboutus/>
       <Footer/>
     </div>
   )
